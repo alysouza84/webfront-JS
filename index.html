@@ -22,33 +22,54 @@
                 <a href="#"><li>Relatorios</li></a>
                 <a href="#"><li>Conteúdo</li></a>
                 <a href="#"><li>Grid</li></a>
-                <a href="#"><li>News Letter</li></a>
+                <a href="#"><li>Criar Conta</li></a>
             </ul>
     </header>
     <main>
-        <aside>
-            <h2>Inscreva-se agora</h2>
-            <h2>na News Letter</h2>
-            <p>Você é um verdadeiro apaixonado pelo universo geek? Não importa se o seu coração bate mais forte por super-heróis, ficção científica, jogos, animes, ou qualquer outra forma de entretenimento nerd, porque temos uma incrível oportunidade para você!
-                <br>
-                Nossa missão é mantê-lo atualizado com as últimas notícias, lançamentos, análises e eventos do mundo geek, e a melhor maneira de fazer isso é através da nossa Newsletter Semanal. É sua chance de receber informações exclusivas diretamente na sua caixa de entrada, e o melhor de tudo, é totalmente gratuita!
-                <br>
-                </p>
-            <form id="from" class="form">
-                <div class = "form-control">
-                    <label for="nome">Nome Completo</label>
-                    <input type="text" placeholder="Nome" id="username">
-                </div>    
-                    <label for="email">E-mail</label>
-                    <input type="email" placeholder="E-Mail">
-                
-                <input type="submit" value="Enviar >">
-            </form>
-        </aside>
-            <article>
-                <img src="./images/subscribeimage.jpg" alt="mini-steveJobs" width="320" height="480">
-            </article>
+        <body>
+            <div class="container">
+                <div class="header">
+                    <h2>Criar Conta</h2>
+                </div>
+                <form id="from" class="form">
+                    <div class="form-control">
+                        <label for="username">Nome Completo</label>
+                        <input type="text" placeholder="Nome" id="username">
+                        <i class="fas fa-exclamation-circle"></i>
+                        <i class="fas fa-check-circle"></i>
+                        <small>Mensagem de erro</small>
+                    </div>    
+                    <div class="form-control">
+                        <label for="email">Email</label>
+                        <input type="email" placeholder="Email" id="email">
+                        <i class="fas fa-exclamation-circle"></i>
+                        <i class="fas fa-check-circle"></i>
+                        <small>Mensagem de erro</small>
+                    </div>    
+                    <div class="form-control">
+                        <label for="password">Senha</label>
+                        <input type="password" placeholder="Digite Senha" id="password">
+                        <i class="fas fa-exclamation-circle"></i>
+                        <i class="fas fa-check-circle"></i>
+                        <small>Mensagem de erro</small>
+                    </div>
+                    <div class="form-control">
+                        <label for="password-confirmation">Confirmação de Senha</label>
+                        <input type="password" placeholder="Confirme sua Senha" id="password-confirmation">
+                        <i class="fas fa-exclamation-circle"></i>
+                        <i class="fas fa-check-circle"></i>
+                        <small>Mensagem de erro</small>
+                    </div>
+                    <button type="submit">ENVIAR</button>
+                </form>
+            </div>
+            <!-- <article>
+                <img src="./images/subscribeimage.jpg" alt="mini-steveJobs" width="320" height="450">
+            </article> -->
+        </body>
     </main>
-    
+    <script src="https://kit.fontawesome.com/39e660b3de.js" 
+    crossorigin="anonymous">
+    </script>
 </body>
 </html>
