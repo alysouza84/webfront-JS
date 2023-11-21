@@ -107,7 +107,7 @@ h1 {
 }
 
 .form button:hover {
-    background-color: rgba(133, 255, 251, 0.8);
+    background-color: rgba(34, 238, 160, 0.8);
     border: 2px solid rgba(133, 255, 251, 0.8);
 }
 
